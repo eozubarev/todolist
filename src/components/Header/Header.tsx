@@ -10,7 +10,7 @@ const Header = () => {
                     <div className="header__burger-btn">
                         <button type="button" className='header__btn' aria-label="Главное меню">
                             <svg width="24" height="24" viewBox="0 0 24 24">
-                                <path fill="#FFF" fill-rule="evenodd" d="M4.5 5h15a.5.5 0 1 1 0 1h-15a.5.5 0 0 1 0-1zm0 6h15a.5.5 0 1 1 0 1h-15a.5.5 0 1 1 0-1zm0 6h15a.5.5 0 1 1 0 1h-15a.5.5 0 1 1 0-1z"></path>
+                                <path fill="#FFF" fillRule="evenodd" d="M4.5 5h15a.5.5 0 1 1 0 1h-15a.5.5 0 0 1 0-1zm0 6h15a.5.5 0 1 1 0 1h-15a.5.5 0 1 1 0-1zm0 6h15a.5.5 0 1 1 0 1h-15a.5.5 0 1 1 0-1z"></path>
                             </svg>
                         </button>
                     </div>
@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="header__ui-create">
                     <button className='header__btn' type="button" aria-label="Быстрое добавление">
                         <svg width="24" height="24" viewBox="0 0 24 24">
-                            <g fill="none" fill-rule="evenodd" transform="translate(4 3)">
+                            <g fill="none" fillRule="evenodd" transform="translate(4 3)">
                                 <mask id="jd4FBg" fill="#fff">
                                     <path d="M9 8h7a.5.5 0 1 1 0 1H9v7a.5.5 0 1 1-1 0V9H1a.5.5 0 0 1 0-1h7V1a.5.5 0 0 1 1 0v7z"></path>
                                 </mask>
@@ -34,8 +34,8 @@ const Header = () => {
                 <div className="header__ui-progress">
                     <button className='header__ui-btn header__btn' type="button" aria-label="Продуктивность">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <g fill="none" fill-rule="evenodd">
-                                <g fill="#FFF" fill-rule="nonzero">
+                            <g fill="none" fillRule="evenodd">
+                                <g fill="#FFF" fillRule="nonzero">
                                     <g>
                                         <g>
                                             <path
@@ -56,7 +56,7 @@ const Header = () => {
                             <path
                                 d="M12 3a9 9 0 11-.001 18.001A9 9 0 0112 3zm0 1a8 8 0 100 16 8 8 0 000-16zm-.093 10.794c.47 0 .802.355.802.856 0 .495-.331.85-.802.85-.471 0-.808-.355-.808-.85 0-.501.337-.856.808-.856zm.128-7.294c1.465 0 2.465.954 2.465 2.213 0 .96-.47 1.639-1.215 2.11-.738.458-.948.8-.948 1.443v.397H11.32v-.562c-.006-.808.366-1.358 1.163-1.86.674-.433.936-.818.936-1.473 0-.758-.559-1.314-1.425-1.314-.878 0-1.436.544-1.5 1.418H9.5c.064-1.32.901-2.372 2.535-2.372z"
                                 fill="#FFF"
-                                fill-rule="nonzero"
+                                fillRule="nonzero"
                             ></path>
                         </svg>
                     </button>

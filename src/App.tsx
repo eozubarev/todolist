@@ -1,9 +1,8 @@
 import React, { FC, ChangeEvent, useState } from 'react';
 import TodoTask from './components/TodoTask/TodoTask';
+import Header from './components/Header/Header';
 import { ITask } from './interfaces';
 import './css/site.scss';
-import Header from './components/Header/Header';
-import { log } from 'console';
 
 const App: FC = () => {
   
@@ -25,13 +24,16 @@ const App: FC = () => {
     setTodoList([...todoList, newTask]);
     setTask("")
     setDeadline(0)
-    console.log(todoList);
   }
 
   const completeTask = (taskNameToDelete: string): void => {
-    setTodoList(todoList.filter((task) => {
-      return task.taskName != taskNameToDelete
-    }))
+
+    setTimeout(() => {
+      setTodoList(todoList.filter((task) => {
+        return task.taskName != taskNameToDelete
+      }))
+    }, 500)
+  
   }
 
   return (
