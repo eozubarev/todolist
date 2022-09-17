@@ -1,0 +1,46 @@
+$transition: 0.3s ease;
+
+.header {
+    background-color: #DB4C3F;
+    width: 100%;
+    &__btn {
+        height: 26px;
+        border-radius: 4px;
+        transition: all $transition;
+        &:hover {
+            background-color: #ffffff4a;
+        }
+    }
+    &__container {
+        padding: 8px 0px 8px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    &__burger {
+
+    }
+    &__ui {
+        display: flex;
+        align-items: center;
+        & div {
+            padding: 0px 5px 0px 5px;
+        }
+        &-btn {
+            display: flex;
+            align-items: center;
+            & span {
+                text-decoration: none;
+                white-space: nowrap;
+                margin-left: 5px;
+                line-height: 1;
+                font-size: 13px;
+                font-weight: 400;
+                color: #fff;
+            }
+        }
+        &-progress {
+
+        }
+    }
+}

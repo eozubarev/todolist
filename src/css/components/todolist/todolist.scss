@@ -1,0 +1,36 @@
+.todolist {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & h2 {
+            margin-bottom: 40px;
+        }
+    }
+    &__items {
+        box-shadow: $shadow3;
+        padding: 50px;
+        border-radius: 10px;
+    }
+    &__inputs {
+    }
+    &__btn {
+        margin-top: 15px;
+        text-align: center;
+        & button {
+            width: 170px;
+        }
+    }
+    &__tasks {
+        margin-top: 40px;
+        font-size: 16px;
+        & li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
